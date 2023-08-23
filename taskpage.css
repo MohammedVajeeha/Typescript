@@ -1,0 +1,144 @@
+/* table {
+    border-collapse: collapse;
+    width: 30%;
+    border: 1px ;
+    
+  }
+  th, td {
+    border: 1px solid #3a0404;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    color: white;
+    background-color: rgb(66, 40, 116);
+  }
+  .tbdata{
+    display: flex;
+    align-items: center;
+  }
+  */
+body {
+    font-family: Arial, sans-serif;
+    border: black;
+    padding-left: 300px;
+    padding-top: 200px;
+    background-color: grey;
+}
+
+#ipbox {
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+      
+}
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 25px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px ;
+    border-radius: 5px;
+    position: relative;
+    background-color: #190657;
+    color: white;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+    
+  }
+  .task select {
+    margin-right: 10px;
+  }
+  .task.completed span {
+    text-decoration: line-through;
+  }
+    #addbtn {
+    background-color: #190657;
+    color: white;
+    margin-left: 1px;
+    width: 70px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    }
+
+  .mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+  }
+  .ipbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    height: 60px; /* Increase height */
+    margin-bottom: 20px;
+  }
+  .ipbox input[type="text"] {
+    flex: 1;
+    height: 100%; /* Take up full height of the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .ipbox button {
+    height: 100%; /* Take up full height of the container */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button.delete-button {
+    
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button.delete-button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+
+  select {
+    z-index: 1; 
+  }
+
+  #taskName ,
+  #search {
+   
+    height: 30px;
+    width: auto;
+  }
+
+.task-list{
+  background-color: #ccc;
+  text-align: center;
+  padding: 2%;
+  max-width: 50%;
+  max-height: 50%;
+ border: 1px solid black;
+ border-radius: 3PX;
+ 
+}
